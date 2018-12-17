@@ -7,10 +7,6 @@ def fib(n):    # write Fibonacci series up to n
     print()
 
 
-<<<<<<< HEAD
-# Now call the function we just defined:
-fib(1000000)
-=======
 fib(1000000)  # Now call the function we just defined
 
 
@@ -25,4 +21,4 @@ def fib2(n):  # return Fibonacci series up to n
 
 
 f100 = fib2(100)    # call it
-f100                 # write the result
+f100                # write the result
