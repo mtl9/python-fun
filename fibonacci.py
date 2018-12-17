@@ -7,6 +7,10 @@ def fib(n):    # write Fibonacci series up to n
     print()
 
 
+<<<<<<< HEAD
+# Now call the function we just defined:
+fib(1000000)
+=======
 fib(1000000)  # Now call the function we just defined
 
 
