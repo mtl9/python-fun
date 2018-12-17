@@ -2,11 +2,16 @@ def fib(n):    # write Fibonacci series up to n
     """Print a Fibonacci series up to n."""
     a, b = 0, 1
     while a < n:
+<<<<<<< HEAD
         print(a)
+=======
+        print(a, end=' ')
+>>>>>>> master
         a, b = b, a+b
     print()
 
 
+<<<<<<< HEAD
 fib(1000000)  # Now call the function we just defined
 
 
@@ -22,3 +27,7 @@ def fib2(n):  # return Fibonacci series up to n
 
 f100 = fib2(100)    # call it
 f100                # write the result
+=======
+# Now call the function we just defined:
+fib(1000000)
+>>>>>>> master
