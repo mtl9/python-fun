@@ -1,6 +1,3 @@
-from __future__ import print_function
-
-
 def fib(n):    # write Fibonacci series up to n
     """Print a Fibonacci series up to n."""
     a, b = 0, 1
@@ -10,4 +7,5 @@ def fib(n):    # write Fibonacci series up to n
     print()
 
 
-fib(1000000)  # Now call the function we just defined
+# Now call the function we just defined:
+fib(1000000)
